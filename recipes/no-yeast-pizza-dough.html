@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odin Recipes | Lasagna</title>
+
+    <!--Style copied from StackOverflow-->
+
+    <style>
+        ol {
+            counter-reset: item;
+        }
+        ol li { display: block }
+
+        ol li:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>No-Yeast Pizza Dough</h1>
+    <img src="./images/no-yeast-pizza-dough.jpeg">
+    <h2>Here's how to make the perfect no-yeast pizza dough with these simple steps.</h2>
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><strong>Flour;</strong></li>
+        <li><strong>Baking powder;</strong></li>
+        <li><strong>A pinch of salt;</strong></li>
+        <li><strong>Half-cup of fat-free milk;</strong></li>
+        <li><strong>Olive oil.</strong></li>
+    </ul>
+    <h3>Steps:</h3>
+    <ol>
+        <li>Mix the dry ingredients, 
+            then stir in the wet ingredients until a dough forms;</li>
+        <li>Turn out the dough and knead;</li>
+        <li>Shape the dough into a ball and let rise;</li>
+        <li>Roll the dough out into a circle.</li>
+    </ol>
+    <h3>How to cook the pizza:</h3>
+    <ol>
+        <li>Preheat the oven to 400 degrees F (200 degrees C);</li>
+        <li>Bake the crust in the preheated oven for 8 minutes;</li>
+        <li>Top with your favorite toppings and bake 
+            until the crust is golden brown, 
+            about 10 to 15 minutes more;</li>
+    </ol>
+</body>
+
+</html>
