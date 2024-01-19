@@ -1,0 +1,23 @@
+
+#title {
+
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
+}
+
+.recipes {
+
+    color:red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.steps {
+
+    color: green;
+}
+
+.ingredients {
+
+    color: blue;
+}
